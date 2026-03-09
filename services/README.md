@@ -14,10 +14,10 @@ The Service selector must match the Pod label.
 If the labels do not match, Service won’t connect to the Pod.
 
 ### Example:
-Pod
+#### Pod
 labels:
   app: nginx
 
-Service
+#### Service
 selector:
   app: nginx
