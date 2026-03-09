@@ -1,4 +1,4 @@
-## This folder contains Kubernetes Service manifests created as part of my Kubernetes learning journey.
+## This folder contains Service manifests created as part of my Kubernetes learning journey.
 
 ## 🚀 How to Deploy
 kubectl apply -f <service-file>.yaml
