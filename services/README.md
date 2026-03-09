@@ -15,9 +15,13 @@ If the labels do not match, Service won’t connect to the Pod.
 
 ## Example:
 ### Pod
+```yaml
 labels:
   app: nginx
+```
 
 ### Service
+```yaml
 selector:
   app: nginx
+```
