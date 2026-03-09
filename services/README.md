@@ -1,13 +1,13 @@
 ## This folder contains Service manifests created as part of my Kubernetes learning journey.
 
 ## 🚀 How to Deploy
-kubectl apply -f <service-file>.yaml
+kubectl apply -f service-file-name.yaml
 
 ## 🔍 Verify
 kubectl get services
 
 ## 🧹 Delete
-kubectl delete -f <service-file>.yaml
+kubectl delete -f service-file-name.yaml
 
 ## ⚠️ Important Note  
 The Service selector must match the Pod label.  
